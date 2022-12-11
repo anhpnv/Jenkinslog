@@ -12,21 +12,21 @@ def loadColors(){
 def info(message) {
     loadColors()
     sh """
-    set +x; echo -e "${CYAN}[INFO] - $message  ${NC}"
+    echo -e "${CYAN}[INFO] - $message  ${NC}"
     """
 }
 
 def warn(message) {
     loadColors()
     sh """
-    set +x; echo -e "${PURPLE}[INFO] - $message  ${NC}"
+    echo -e "${PURPLE}[INFO] - $message  ${NC}"
     """
 }
 
 def debug(message) {
     loadColors()
     sh """
-    set +x; echo -e "${PURPLE}[INFO] - $message  ${NC}"
+    echo -e "${PURPLE}[INFO] - $message  ${NC}"
     """
 }
 
