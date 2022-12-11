@@ -23,10 +23,6 @@ def warn(message) {
     """
 }
 
-def info(message) {
-    loadColors()
-}
-
 def debug(message) {
     loadColors()
     sh """
