@@ -14,7 +14,7 @@ pipeline {
         stage('Test'){
             steps {
                 script {
-                    log.info “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+                    log.info "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                 }
             }
         }
